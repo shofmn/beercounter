@@ -1,6 +1,6 @@
 # Beer Counter
 
-A simple PHP and Javascript app that helps you to count your beers at an event. It consits of a *Beer Counter* page that shows how many beers you and your friends have drunken so far and a seperate chart page that shows the beer consumption over time (see screenshots below).
+A simple PHP and Javascript app that helps you to count your beers at an event. It consits of a *Beer Counter* page that shows how many beers you and your friends have drunk so far and a seperate chart page that shows the beer consumption over time (see screenshots below).
 
 # Setup
 
