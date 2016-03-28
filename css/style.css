@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	color: #FFFFFF;
+	background: #000000;
+}
+
+h1 {
+  text-align: center;
+}
+
+.h1sub {
+  font-size: 0.6em;
+  font-family: 'Leckerli One', cursive;
+  color: red;
+}
+
+#result {
+	text-align: center;
+}
+
+#remainingFuel {
+	margin-top: 100px;
+	text-align: center;
+	font-size: 0.4em;
+	color: #C0C0C0;
+}
+
+#lastUpdate {
+	text-align: center;
+	font-size: 0.4em;
+	color: #C0C0C0;
+}

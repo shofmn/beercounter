@@ -1,0 +1,21 @@
+body {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+#chartLegend {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#chartLegend > ul {
+  list-style-type: none;
+}
+
+#chartLegend span {
+  display: block;
+  width: 80px;
+  padding: 3px;
+  font-family: Helvetica, sans-serif;
+}
