@@ -2,7 +2,7 @@
 
 A simple PHP and Javascript app that helps you to count your beers at an event. It consits of a *Beer Counter* page that shows how many beers you amd your friends have drunken so far and a seperate chart page that shows the beer consumption over time.
 
-# How to run
+# Setup
 
 1. Upload all files to a webserver that supports PHP and MySQL
 2. Create the necessary table in the database by running the following SQL command:
@@ -32,3 +32,9 @@ Simply do a HTTP POST request to `/beers` including the parameter `user` (that c
 * jQuery
 * Chart.js
 * font-awesome
+
+# Screenshots
+
+![Image of Beer Counter Website](https://cloud.githubusercontent.com/assets/2188617/14082549/e194c3ec-f510-11e5-8cc8-6e84d9d407cc.png)
+
+![Image of Beer Consumption Chart](https://cloud.githubusercontent.com/assets/2188617/14082542/dcff46fe-f510-11e5-9a1e-a65391a7ba44.png)
