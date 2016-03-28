@@ -8,14 +8,19 @@ A simple PHP and Javascript app that helps you to count your beers at an event. 
 2. Create the necessary table in the database by running the following SQL command:
 
 ```sql
-fs
+CREATE TABLE `beer` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user` varchar(21) NOT NULL,
+  `drinkdate` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1;
 ```
 
 3. Adjust the conf.php
-4. Enjoy! Use https://www.yourwebsite.com/chart to access the chart
+4. Enjoy! Use `/chart` to access the chart
 
 # How to add a beer
-Simply do a HTTP POST request to /beers including the parameter `user` (that contains your or your friends username). That's it.
+Simply do a HTTP POST request to `/beers` including the parameter `user` (that contains your or your friends username). That's it.
 
 # Notes
 * Don't look at the code. It was developed in 3 days during [Revision demoparty](https://www.revision-party.net), while partying hard and under the heavy influence of alcohol.
