@@ -1,6 +1,6 @@
 # Beer Counter
 
-A simple PHP and Javascript app that helps you to count your beers at an event. It consits of a *Beer Counter* page that shows how many beers you amd your friends have drunken so far and a seperate chart page that shows the beer consumption over time.
+A simple PHP and Javascript app that helps you to count your beers at an event. It consits of a *Beer Counter* page that shows how many beers you and your friends have drunken so far and a seperate chart page that shows the beer consumption over time (see screenshots below).
 
 # Setup
 
@@ -16,11 +16,11 @@ CREATE TABLE `beer` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1;
 ```
 
-3. Adjust the conf.php
+3. Adjust the `conf.php` file
 4. Enjoy! Use `/chart` to access the chart
 
 # How to add a beer
-Simply do a HTTP POST request to `/beers` including the parameter `user` (that contains your or your friends username). That's it.
+Simply do a HTTP POST request to `/beers` including the parameter `user` (that contains your or your friends handle). That's it.
 
 # Notes
 * Don't look at the code. It was developed in 3 days during [Revision demoparty](https://www.revision-party.net), while partying hard and under the heavy influence of alcohol.
