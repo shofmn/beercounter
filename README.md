@@ -17,7 +17,7 @@ CREATE TABLE `beer` (
 ```
 
 3. Adjust the `conf.php` file
-4. Enjoy! Use `/chart` to access the chart
+4.  Enjoy! Use `/chart` to access the chart
 
 # How to add a beer
 Simply do a HTTP POST request to `/beers` including the parameter `user` (that contains your or your friends handle). That's it.
