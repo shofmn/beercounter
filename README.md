@@ -26,7 +26,7 @@ Simply do a HTTP POST request to `/beers` including the parameter `user` (that c
 * Don't look at the code. It was developed in 3 days during [Revision demoparty](http://www.revision-party.net), while partying hard and under the heavy influence of alcohol.
 * Seriously, don't look at the code. All you need to know is that it just works.
 * The calculation of the amount of beer you drink is under the assumption that each beer has a volume of 0.3 liters.
-* The application uses **no authentication**, so be careful with whom you share the link, especially the HTTP POST resource to add a beer. However, this gives you the possibility to easily call this URL from any IoT device (such as an bluetooth button).
+* The application uses **no authentication**, so be careful with whom you share the link, especially the HTTP POST resource to add a beer. However, this gives you the possibility to easily call this URL from any IoT device (such as an bluetooth button) without setting up OAuth or any other authentication method.
 
 # Used external libraries/tools
 * jQuery
