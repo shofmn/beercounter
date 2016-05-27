@@ -29,9 +29,9 @@ Simply do a HTTP POST request to `/beers` including the parameter `user` (that c
 * The application uses **no authentication**, so be careful with whom you share the link, especially the HTTP POST resource to add a beer. However, this gives you the possibility to easily call this URL from any IoT device (such as a bluetooth button) without setting up OAuth or any other authentication method.
 
 # Used external libraries/tools
-* jQuery
-* Chart.js
-* font-awesome
+* [jQuery](https://jquery.com/)
+* [Chart.js](http://www.chartjs.org/)
+* [Font Awesome](http://fontawesome.io/)
 
 # Screenshots
 
