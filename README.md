@@ -49,6 +49,6 @@ Simply do a HTTP POST request to `/drinks` including the parameter `user` (that 
 
 # Screenshots
 
-![Image of Beer Counter Website](https://cloud.githubusercontent.com/assets/2188617/14082549/e194c3ec-f510-11e5-8cc8-6e84d9d407cc.png)
+![Image of Beer Counter Website](https://cloud.githubusercontent.com/assets/2188617/25071942/addc29c8-22c3-11e7-9be9-3cb706ae084b.png)
 
-![Image of Beer Consumption Chart](https://cloud.githubusercontent.com/assets/2188617/14082542/dcff46fe-f510-11e5-9a1e-a65391a7ba44.png)
+![Image of Beer Consumption Chart](https://cloud.githubusercontent.com/assets/2188617/25071943/b2d67226-22c3-11e7-9c2c-82c21a287b32.png)
