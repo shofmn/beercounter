@@ -1,6 +1,6 @@
 # Beer Counter
 
-A simple PHP and Javascript app that helps you to count your beers and longdrinks at an event. It consits of a *Beer Counter* page that shows how many drinks you and your friends have drunk so far and a separate chart page that shows the drink consumption over time (see screenshots below).
+A simple PHP and Javascript app that helps you to count your beers and longdrinks at an event. It consits of a *Beer Counter* page that shows how many drinks you and your friends have drunk so far and a separate chart page that shows the drink consumption over time (see screenshots below). Additionally, your current BAC value (blood alcohol content) is calculated.
 
 # Setup
 
