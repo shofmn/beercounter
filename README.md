@@ -8,12 +8,25 @@ A simple PHP and Javascript app that helps you to count your beers and longdrink
 2. Create the necessary table in the database by running the following SQL command:
 
 ```sql
-CREATE TABLE `beer` (
+CREATE TABLE `drink` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `user` varchar(21) NOT NULL,
+  `userid` int(11) NOT NULL,
   `drinkdate` datetime NOT NULL,
+  `type` tinyint(1) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nickname` varchar(21) NOT NULL,
+  `gender` binary(1) NOT NULL,
+  `weight` bigint(6) NOT NULL,
+  `height` smallint(6) NOT NULL,
+  `age` smallint(6) NOT NULL,
+  PRIMARY KEY (`id`),
+  FULLTEXT KEY `name` (`nickname`),
+  FULLTEXT KEY `name_2` (`nickname`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 ```
 
 3. Adjust the `conf.php` file
