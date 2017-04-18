@@ -102,12 +102,12 @@ function calculateBac(user, drinksOfUser) {
     }
 
     var bacOfDrink = (alcoholAmount / (user.weight * genderValue)) * 100;
-    var impact = timeDifference * 2 > 1 ? 1 : timeDifference * 2; // A value between 0 and 1
-    var bacOfDrinkAfterPeriod = (bacOfDrink - (timeDifference * 0.015)) * impact;
+    //var impact = timeDifference * 2 > 1 ? 1 : timeDifference * 2; // A value between 0 and 1
+    var bacOfDrinkAfterPeriod = (bacOfDrink - (timeDifference * 0.015));// * impact;
     
     if (bacOfDrinkAfterPeriod <= 0)
       bacOfDrinkAfterPeriod = 0;
     bacSum += bacOfDrinkAfterPeriod;
   }
-  return bacSum * 10;
+  return bacSum * 10 * 3;
 }
